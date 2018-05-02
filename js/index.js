@@ -1,5 +1,3 @@
-document.addEventListener('DOMContentLoaded', 
-function () {
     var a = parseInt(prompt('Enter a: ')),
         b = parseInt(prompt('Enter b: ')),
         c = parseInt(prompt('Enter c: ')),
@@ -24,4 +22,4 @@ function () {
     
     myFunc(a, b, c)
     document.write('x1 is: ' + result1 + '<br>' + 'x2 is: ' + result2)
-});
+;
