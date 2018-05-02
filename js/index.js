@@ -1,10 +1,10 @@
-    var a = parseInt(prompt('Enter a: ')),
+   let  a = parseInt(prompt('Enter a: ')),
         b = parseInt(prompt('Enter b: ')),
         c = parseInt(prompt('Enter c: ')),
         result1 = null,
         result2 = null;
     
-    var myFunc = function(a, b, c){
+    let myFunc = function(a, b, c){
         
         if(a === 0){
             alert('Error a = 0');
